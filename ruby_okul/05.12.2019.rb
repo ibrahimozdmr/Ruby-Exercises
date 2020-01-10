@@ -52,7 +52,6 @@ p (1..10).find{|i| i % 5 == 0 and i % 7 == 0}
 #select = find_all
 p [1,2,3,4,5].select{|a| a.even?}
 p [1,2,3,4,5].find_all{|b| b.odd?}
-
 p (1..50).find_all{|sayi| sayi % 2 == 0 && sayi % 9 == 0}
 
 
